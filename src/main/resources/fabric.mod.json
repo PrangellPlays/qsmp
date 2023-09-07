@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "qsmp",
+	"version": "1.20.1-0.0.1",
+	"name": "QSMP",
+	"description": "A private mod based off of the QSMP!",
+	"authors": [
+		"PrangellPlays",
+		"PlasmythicStudios"
+	],
+	"contact": {
+		"homepage": "https://plasmythicstudios.github.io",
+		"discord": "https://discord.gg/KREK6TBwaV"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/qsmp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.prangellplays.qsmp.QSMP"
+		],
+		"client": [
+			"net.prangellplays.qsmp.QSMPClient"
+		]
+	},
+	"mixins": [
+		"qsmp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
