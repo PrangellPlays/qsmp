@@ -2,7 +2,12 @@
   "item.qsmp.duck_floaty": "Duck Floaty",
   "item.qsmp.cpv2": "§2CPV2",
   "item.qsmp.code_blade": "§200100001",
+  "item.qsmp.broken_hilt": "§2Code Breaker",
+  "item.qsmp.rubro": "§4Rubro",
 
   "block.qsmp.tallulah": "Tallulah",
-  "block.qsmp.chayanne": "Chayanne"
+  "block.qsmp.chayanne": "Chayanne",
+  
+  "effect.qsmp.bloodrush": "Bloodrush",
+  "effect.qsmp.cpv2": "CPV2"
 }
